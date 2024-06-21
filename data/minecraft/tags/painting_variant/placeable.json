@@ -1,0 +1,31 @@
+{
+  "values": [
+	"minecraft:build1",
+	"minecraft:build2",
+	"minecraft:build3",
+	"minecraft:build4",
+	"minecraft:decorate1",
+	"minecraft:decorate2",
+	"minecraft:earth",
+	"minecraft:indoor1",
+	"minecraft:indoor2",
+	"minecraft:indoor3",
+	"minecraft:indoor4",
+	"minecraft:lake1",
+	"minecraft:lake2",
+	"minecraft:mountain1",
+	"minecraft:mountain2",
+	"minecraft:mountain3",
+	"minecraft:mountain4",
+	"minecraft:sea1",
+	"minecraft:sea2",
+	"minecraft:tower1",
+	"minecraft:tower2",
+	"minecraft:tower3",
+	"minecraft:tower4",
+	"minecraft:waterfall1",
+	"minecraft:waterfall2",
+	"minecraft:way1",
+	"minecraft:way2"
+  ]
+}

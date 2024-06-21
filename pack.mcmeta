@@ -1,0 +1,14 @@
+{
+	"pack": {
+		"pack_format": 48,
+		"supported_formats": {
+			"min_inclusive": 48, 
+			"max_inclusive": 48
+		},
+		"description": [
+			{
+				"text":"§6§l橡树屋群组服务器 §e§l专用数据包\n§2§l栎果集 §7§l- §8§l戴特RinO"
+			}
+		]
+	}
+}

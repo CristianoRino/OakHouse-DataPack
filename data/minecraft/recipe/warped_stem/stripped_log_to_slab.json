@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_warped_stem"
+	},
+	"result": {
+		"id": "warped_slab",
+		"count": 8
+	}
+}

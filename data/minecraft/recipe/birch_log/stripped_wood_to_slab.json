@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_birch_wood"
+	},
+	"result": {
+		"id": "birch_slab",
+		"count": 8
+	}
+}

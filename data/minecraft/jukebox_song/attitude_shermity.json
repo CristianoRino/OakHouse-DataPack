@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.shermity.attitude"
+    },
+    "length_in_seconds": 229,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.attitude_shermity"
+    }
+ }

@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.jyqc"
+    },
+    "length_in_seconds": 237,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.jyqc"
+    }
+ }

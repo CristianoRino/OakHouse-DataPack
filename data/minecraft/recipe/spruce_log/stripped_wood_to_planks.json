@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_spruce_wood"
+	},
+	"result": {
+		"id": "spruce_planks",
+		"count": 4
+	}
+}

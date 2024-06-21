@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "mangrove_planks"
+	},
+	"result": {
+		"id": "stick",
+		"count": 2
+	}
+}

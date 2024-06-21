@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "warped_stem"
+	},
+	"result": {
+		"id": "stripped_warped_stem"
+	}
+}

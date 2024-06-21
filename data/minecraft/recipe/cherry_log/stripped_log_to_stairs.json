@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_cherry_log"
+	},
+	"result": {
+		"id": "cherry_stairs",
+		"count": 4
+	}
+}

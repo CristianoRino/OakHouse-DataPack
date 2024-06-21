@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "warped_hyphae"
+	},
+	"result": {
+		"id": "warped_stairs",
+		"count": 4
+	}
+}

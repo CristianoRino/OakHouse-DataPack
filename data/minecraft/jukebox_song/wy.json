@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.wy"
+    },
+    "length_in_seconds": 329,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.wy"
+    }
+ }

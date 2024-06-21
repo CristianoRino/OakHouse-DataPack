@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "bamboo_block"
+	},
+	"result": {
+		"id": "bamboo_mosaic_slab",
+		"count": 4
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "spruce_wood"
+	},
+	"result": {
+		"id": "stripped_spruce_log"
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "deepslate"
+	},
+	"result": {
+		"id": "polished_deepslate_slab"
+	}
+}

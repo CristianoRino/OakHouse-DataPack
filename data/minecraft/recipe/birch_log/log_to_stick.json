@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "birch_log"
+	},
+	"result": {
+		"id": "stick",
+		"count": 8
+	}
+}

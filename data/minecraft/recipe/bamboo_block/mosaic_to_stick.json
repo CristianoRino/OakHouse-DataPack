@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "bamboo_mosaic"
+	},
+	"result": {
+		"id": "stick",
+		"count": 2
+	}
+}

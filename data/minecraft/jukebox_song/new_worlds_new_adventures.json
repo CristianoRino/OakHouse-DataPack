@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.new_worlds_new_adventures"
+    },
+    "length_in_seconds": 216,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.new_worlds_new_adventures"
+    }
+ }

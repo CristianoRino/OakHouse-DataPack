@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.the_well_of_fate"
+    },
+    "length_in_seconds": 202,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.the_well_of_fate"
+    }
+ }

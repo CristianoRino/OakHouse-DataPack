@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "jungle_log"
+	},
+	"result": {
+		"id": "stripped_jungle_log"
+	}
+}

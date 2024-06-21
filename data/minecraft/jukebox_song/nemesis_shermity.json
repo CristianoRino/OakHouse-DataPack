@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.shermity.nemesis"
+    },
+    "length_in_seconds": 225,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.nemesis_shermity"
+    }
+ }

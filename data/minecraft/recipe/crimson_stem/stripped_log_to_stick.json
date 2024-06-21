@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_crimson_stem"
+	},
+	"result": {
+		"id": "stick",
+		"count": 8
+	}
+}

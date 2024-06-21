@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.ysjm"
+    },
+    "length_in_seconds": 215,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.ysjm"
+    }
+ }

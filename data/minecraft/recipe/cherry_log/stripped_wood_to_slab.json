@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_cherry_wood"
+	},
+	"result": {
+		"id": "cherry_slab",
+		"count": 8
+	}
+}

@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.bromeliad"
+    },
+    "length_in_seconds": 223,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.bromeliad"
+    }
+ }

@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.crescent_dunes"
+    },
+    "length_in_seconds": 218,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.crescent_dunes"
+    }
+ }

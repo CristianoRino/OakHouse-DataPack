@@ -1,0 +1,10 @@
+{
+    "comparator_output": 8,
+    "description":  {
+        "translate": "add_song.minecraft.a_damiliar_room"
+    },
+    "length_in_seconds": 231,
+    "sound_event": {
+      "sound_id": "minecraft:music_disc.a_damiliar_room"
+    }
+ }

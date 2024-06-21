@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "stripped_acacia_wood"
+	},
+	"result": {
+		"id": "acacia_planks",
+		"count": 4
+	}
+}

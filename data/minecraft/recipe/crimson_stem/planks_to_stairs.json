@@ -1,0 +1,9 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "crimson_planks"
+	},
+	"result": {
+		"id": "crimson_stairs"
+	}
+}

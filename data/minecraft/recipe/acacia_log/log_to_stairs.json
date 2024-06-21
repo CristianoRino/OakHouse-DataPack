@@ -1,0 +1,10 @@
+{
+	"type": "stonecutting",
+	"ingredient": {
+		"item": "acacia_log"
+	},
+	"result": {
+		"id": "acacia_stairs",
+		"count": 4
+	}
+}

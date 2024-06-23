@@ -141,48 +141,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:lead"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "add_music:mclofi"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_chirp",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "add_music:mcdglofi"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:mclglofi"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
         }
       ],
       "rolls": 1.0

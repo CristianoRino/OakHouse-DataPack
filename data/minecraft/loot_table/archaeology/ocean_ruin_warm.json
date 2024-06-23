@@ -51,12 +51,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
+          "name": "minecraft:music_disc_stal",
           "functions": [
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "add_music:mclofi"
+                  "song": "minecraft:echo_in_the_wind"
                 }
               },
               "function": "minecraft:set_components"
@@ -65,12 +65,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_chirp",
+          "name": "minecraft:music_disc_mellohi",
           "functions": [
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "add_music:mcdglofi"
+                  "song": "minecraft:new_worlds_new_adventures"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_ward",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:the_well_of_fate"
                 }
               },
               "function": "minecraft:set_components"

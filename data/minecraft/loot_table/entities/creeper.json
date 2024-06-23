@@ -1,0 +1,191 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 0.0
+              },
+              "function": "minecraft:set_count"
+            },
+            {
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 0.0
+              },
+              "enchantment": "minecraft:looting",
+              "function": "minecraft:enchanted_count_increase"
+            }
+          ],
+          "name": "minecraft:gunpowder"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "attacker",
+          "predicate": {
+            "type": "#minecraft:skeletons"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "expand": true,
+          "name": "minecraft:creeper_drop_music_discs"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 3,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:jyqc"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 4,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:kh"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 5,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:lcy"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 6,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:pb"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 7,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:ryez"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 8,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:wy"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 9,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:ysgs"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 10,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:ysjm"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "functions": [
+            {
+              "components": {
+                "minecraft:custom_model_data": 11,
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:zjgs"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:entities/creeper"
+}

@@ -92,7 +92,7 @@
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "add_music:mcdglofi"
+                  "song": "minecraft:coral_rise"
                 }
               },
               "function": "minecraft:set_components"
@@ -101,12 +101,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
+          "name": "minecraft:music_disc_blocks",
           "functions": [
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "minecraft:mclglofi"
+                  "song": "minecraft:crescent_dunes"
                 }
               },
               "function": "minecraft:set_components"

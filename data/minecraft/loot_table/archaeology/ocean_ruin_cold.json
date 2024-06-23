@@ -51,12 +51,26 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
+          "name": "minecraft:music_disc_strad",
           "functions": [
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "add_music:mclofi"
+                  "song": "minecraft:relic_remix"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_far",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:dalarna"
                 }
               },
               "function": "minecraft:set_components"
@@ -70,7 +84,7 @@
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "minecraft:mclglofi"
+                  "song": "minecraft:dalarna_ii"
                 }
               },
               "function": "minecraft:set_components"

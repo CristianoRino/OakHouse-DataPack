@@ -6,11 +6,39 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:clay_ball"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:green_dye"
+          "functions": [
+            {
+              "effects": [
+                {
+                  "type": "minecraft:night_vision",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 10.0,
+                    "min": 7.0
+                  }
+                },
+                {
+                  "type": "minecraft:blindness",
+                  "duration": {
+                    "type": "minecraft:uniform",
+                    "max": 7.0,
+                    "min": 5.0
+                  }
+                }
+              ],
+              "function": "minecraft:set_stew_effect"
+            },
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 6.0,
+                "min": 2.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "minecraft:suspicious_stew"
         },
         {
           "type": "minecraft:item",
@@ -19,14 +47,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
+                "max": 10.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:cactus",
-          "weight": 10
+          "name": "minecraft:golden_carrot"
         },
         {
           "type": "minecraft:item",
@@ -35,14 +62,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 7.0,
+                "max": 10.0,
                 "min": 1.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:wheat",
-          "weight": 10
+          "name": "minecraft:baked_potato"
         },
         {
           "type": "minecraft:item",
@@ -51,33 +77,13 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 4.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:bread",
-          "weight": 10
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:book"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "minecraft:dead_bush",
+          "name": "minecraft:packed_ice",
           "weight": 2
         },
         {
@@ -87,53 +93,37 @@
               "add": false,
               "count": {
                 "type": "minecraft:uniform",
-                "max": 3.0,
-                "min": 1.0
+                "max": 6.0,
+                "min": 2.0
               },
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:emerald"
+          "name": "minecraft:snowball",
+          "weight": 4
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
+          "name": "minecraft:music_disc_chirp",
           "functions": [
             {
               "components": {
-                "minecraft:custom_model_data": 2,
                 "minecraft:jukebox_playable": {
-                  "song": "minecraft:nemesis_shermity"
+                  "song": "minecraft:coral_rise"
                 }
               },
               "function": "minecraft:set_components"
             }
           ],
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_11",
-          "functions": [
-            {
-              "components": {
-                "minecraft:custom_model_data": 1,
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:attitude_shermity"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 2
+          "weight": 4
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 8.0,
-        "min": 3.0
+        "max": 10.0,
+        "min": 4.0
       }
     }
   ],
-  "random_sequence": "minecraft:chests/village/village_desert_house"
+  "random_sequence": "minecraft:chests/ancient_city_ice_box"
 }

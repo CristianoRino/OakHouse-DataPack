@@ -1,0 +1,62 @@
+{
+  "description": {
+    "translate": "enchantment.oakhouse.anger"
+  },
+  "effects": {
+	"minecraft:post_attack": [
+	  {
+			"enchanted": "victim",
+            "affected": "victim",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [
+					{
+						"type": "minecraft:apply_mob_effect",
+						"to_apply": "minecraft:strength",
+						"min_duration": 3,
+						"max_duration": {
+							"type": "minecraft:linear",
+							"base": 3,
+							"per_level_above_first": 0
+						},
+						"min_amplifier": 0,
+						"max_amplifier": 0
+					},
+					{
+						"type": "minecraft:damage_item",
+						"amount": 4.0
+					}
+				]	
+			},
+			"requirements": {
+				"condition": "minecraft:random_chance",
+				"chance": {
+					"type": "minecraft:enchantment_level",
+					"amount": {
+						"type": "minecraft:linear",
+						"base": 0.1,
+						"per_level_above_first": 0.05
+					}
+				}
+			}
+	  }
+	]
+  },
+  "exclusive_set": "#oakhouse:exclusive_set/anger",
+  "slots": [
+    "chest"
+  ],
+  "max_level": 3,
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 3
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 3
+  },
+  "anvil_cost": 6,
+  "supported_items": "#oakhouse:enchantable/chestgroup",
+  "primary_items": "#oakhouse:enchantable/chestgroup",
+  "weight": 5
+}

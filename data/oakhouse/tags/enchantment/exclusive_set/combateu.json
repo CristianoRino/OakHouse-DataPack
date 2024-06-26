@@ -1,0 +1,20 @@
+{
+  "values": [
+	{		
+		"id": "oakhouse:weapon/combat_endurance",
+        "required": false
+    },
+    {		
+		"id": "oakhouse:weapon/mult_attack",
+        "required": false
+    },
+    {		
+		"id": "oakhouse:armor/fearless",
+        "required": false
+    },
+    {
+		"id": "oakhouse:armor/anger",
+        "required": false
+    }
+  ]
+}

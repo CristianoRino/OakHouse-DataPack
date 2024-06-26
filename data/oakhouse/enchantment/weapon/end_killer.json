@@ -1,0 +1,48 @@
+{
+  "description": {
+    "translate": "enchantment.oakhouse.end_killer"
+  },
+  "effects": {
+	"minecraft:damage": [
+	  {
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [
+					{
+						"type": "minecraft:add",
+						"value": {
+							"type": "minecraft:linear",
+							"base": 2,
+							"per_level_above_first": 2.5
+						}
+					}
+				]	
+			},
+			"requirements": {
+				"condition": "minecraft:entity_properties",
+				"entity": "this",
+				"predicate": {
+					"type": "#oakhouse:endmob"
+				}
+			}
+	  }
+	]
+  },
+  "exclusive_set": "#oakhouse:exclusive_set/endkiller",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 5,
+  "max_cost": {
+    "base": 50,
+    "per_level_above_first": 8
+  },
+  "min_cost": {
+    "base": 20,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 4,
+  "supported_items": "#oakhouse:enchantable/swordgroup",
+  "primary_items": "#oakhouse:enchantable/swordgroup",
+  "weight": 10
+}

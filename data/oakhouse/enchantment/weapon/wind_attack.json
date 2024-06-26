@@ -1,0 +1,81 @@
+{
+  "description": {
+    "translate": "enchantment.oakhouse.wind_attack"
+  },
+  "effects": {
+	"minecraft:post_attack": [
+	  {
+			"enchanted": "attacker",
+            "affected": "victim",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [
+					{
+						"type": "minecraft:explode",
+						"radius": 3,
+						"block_interaction": "none",
+						"offset": [
+							0,
+							0.5,
+							0
+						],
+						"small_particle": {
+							"type": "minecraft:gust_emitter_small"
+						},
+						"large_particle": {
+							"type": "minecraft:dust_plume"
+						},
+						"sound": "minecraft:entity.wind_charge.wind_burst",
+						"immune_blocks": "#minecraft:blocks_wind_charge_explosions",
+						"knockback_multiplier": {
+							"type": "minecraft:lookup",
+							"fallback": {
+								"type": "minecraft:linear",
+								"base": 0.85,
+								"per_level_above_first": 0.05
+							},
+							"values": [
+								0.2,
+								0.4
+							]
+						}
+					},
+					{
+						"type": "minecraft:damage_item",
+						"amount": 4.0
+					}
+				]	
+			},
+			"requirements": {
+				"condition": "minecraft:random_chance",
+				"chance": {
+					"type": "minecraft:enchantment_level",
+					"amount": {
+						"type": "minecraft:linear",
+						"base": 0.05,
+						"per_level_above_first": 0.01
+					}
+				}
+			}
+	  }
+	]
+  },
+  "exclusive_set": "#oakhouse:exclusive_set/windattack",
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "max_level": 3,
+  "max_cost": {
+    "base": 60,
+    "per_level_above_first": 5
+  },
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 5,
+  "supported_items": "#oakhouse:enchantable/allofweapon",
+  "primary_items": "#oakhouse:enchantable/allofweapon",
+  "weight": 4
+}

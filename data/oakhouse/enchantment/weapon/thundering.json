@@ -1,0 +1,54 @@
+{
+  "description": {
+    "translate": "enchantment.oakhouse.thundering"
+  },
+  "effects": {
+	"minecraft:post_attack": [
+	  {
+			"enchanted": "attacker",
+            "affected": "victim",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [
+					{
+						"type": "minecraft:summon_entity",
+						"entity": "lightning_bolt"
+					},
+					{
+						"type": "minecraft:damage_item",
+						"amount": 4.0
+					}
+				]	
+			},
+			"requirements": {
+				"condition": "minecraft:random_chance",
+				"chance": {
+					"type": "minecraft:enchantment_level",
+					"amount": {
+						"type": "minecraft:linear",
+						"base": 0.03,
+						"per_level_above_first": 0
+					}
+				}
+			}
+	  }
+	]
+  },
+  "exclusive_set": "#oakhouse:exclusive_set/thundering",
+  "slots": [
+    "mainhand"
+  ],
+  "max_level": 1,
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 10
+  },
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 10
+  },
+  "anvil_cost": 10,
+  "supported_items": "#oakhouse:enchantable/macegroup",
+  "primary_items": "#oakhouse:enchantable/macegroup",
+  "weight": 1
+}

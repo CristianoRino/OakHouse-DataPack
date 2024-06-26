@@ -1,0 +1,12 @@
+{
+    "replace":false,
+    "values": [
+      "#oakhouse:enchantable/axegroup",
+      "#oakhouse:enchantable/swordgroup",
+      "minecraft:bow",
+      "minecraft:crossbow",
+      "minecraft:trident",
+      "minecraft:book",
+      "minecraft:mace"
+    ]
+  }

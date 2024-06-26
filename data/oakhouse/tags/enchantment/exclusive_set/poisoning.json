@@ -1,0 +1,48 @@
+{
+  "values": [
+    {		
+		"id": "oakhouse:weapon/mult_attack",
+        "required": false
+    },
+    {		
+		"id": "oakhouse:weapon/poisoning",
+        "required": false
+    },
+    {		
+		"id": "oakhouse:armor/fearless",
+        "required": false
+    },
+    {
+		"id": "oakhouse:armor/anger",
+        "required": false
+    },
+    {
+    	"id": "oakhouse:weapon/end_killer",
+        "required": false
+    },
+    {
+		"id": "oakhouse:weapon/nether_killer",
+        "required": false
+    },
+    {
+		"id": "oakhouse:weapon/pillagerdefender",
+        "required": false
+    },
+    {
+		"id": "oakhouse:weapon/thundering",
+        "required": false
+    },
+    {
+		"id": "oakhouse:weapon/withertalking",
+        "required": false
+    },
+    {
+		"id": "minecraft:bane_of_arthropods",
+        "required": false
+    },
+    {
+		"id": "minecraft:smite",
+        "required": false
+    }
+  ]
+}

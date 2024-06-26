@@ -1,0 +1,10 @@
+{
+    "replace":false,
+    "values": [
+        "oakhouse:combat_endurance",
+        "oakhouse:fearless",
+        "oakhouse:mult_attack",
+        "oakhouse:poisoning",
+        "oakhouse:slow"
+    ]
+}

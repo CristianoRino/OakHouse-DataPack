@@ -1,0 +1,62 @@
+{
+  "description": {
+    "translate": "enchantment.oakhouse.fearless"
+  },
+  "effects": {
+	"minecraft:post_attack": [
+	  {
+			"enchanted": "victim",
+            "affected": "victim",
+			"effect": {
+				"type": "minecraft:all_of",
+				"effects": [
+					{
+						"type": "minecraft:apply_mob_effect",
+						"to_apply": "minecraft:speed",
+						"min_duration": 3,
+						"max_duration": {
+							"type": "minecraft:linear",
+							"base": 3,
+							"per_level_above_first": 0
+						},
+						"min_amplifier": 0,
+						"max_amplifier": 0
+					},
+					{
+						"type": "minecraft:damage_item",
+						"amount": 2.0
+					}
+				]	
+			},
+			"requirements": {
+				"condition": "minecraft:random_chance",
+				"chance": {
+					"type": "minecraft:enchantment_level",
+					"amount": {
+						"type": "minecraft:linear",
+						"base": 0.1,
+						"per_level_above_first": 0.05
+					}
+				}
+			}
+	  }
+	]
+  },
+  "exclusive_set": "#oakhouse:exclusive_set/fearless",
+  "slots": [
+    "feet"
+  ],
+  "max_level": 3,
+  "max_cost": {
+    "base": 30,
+    "per_level_above_first": 5
+  },
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 5
+  },
+  "anvil_cost": 4,
+  "supported_items": "#oakhouse:enchantable/footgroup",
+  "primary_items": "#oakhouse:enchantable/footgroup",
+  "weight": 6
+}

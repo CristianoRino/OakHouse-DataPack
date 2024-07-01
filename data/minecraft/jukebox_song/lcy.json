@@ -1,7 +1,7 @@
 {
     "comparator_output": 8,
     "description":  {
-        "translate": "add_song.minecraft.lcy"
+        "translate": "add_song.vae.lcy"
     },
     "length_in_seconds": 483,
     "sound_event": {

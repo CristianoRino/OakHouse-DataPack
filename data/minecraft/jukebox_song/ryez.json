@@ -1,7 +1,7 @@
 {
     "comparator_output": 8,
     "description":  {
-        "translate": "add_song.minecraft.ryez"
+        "translate": "add_song.vae.ryez"
     },
     "length_in_seconds": 256,
     "sound_event": {

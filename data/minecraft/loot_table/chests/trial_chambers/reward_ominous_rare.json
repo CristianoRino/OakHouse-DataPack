@@ -1,0 +1,235 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald_block",
+          "weight": 5
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_block",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 5.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:crossbow",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_axe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "max": 20.0,
+                "min": 10.0
+              },
+              "options": "#minecraft:on_random_loot"
+            }
+          ],
+          "name": "minecraft:diamond_chestplate",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:knockback",
+                "minecraft:punch",
+                "minecraft:smite",
+                "minecraft:looting",
+                "minecraft:multishot"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "minecraft:breach",
+                "minecraft:density"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "enchantments": {
+                "minecraft:wind_burst": 1.0
+              },
+              "function": "minecraft:set_enchantments"
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_block"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_cat",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:bromeliad"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_chirp",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:coral_rise"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_blocks",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:crescent_dunes"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mall",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:dalarna_ii"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_stal",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:echo_in_the_wind"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "oakhouse:armor/anger",
+                "oakhouse:armor/fearless"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "function": "minecraft:enchant_randomly",
+              "options": [
+                "oakhouse:weapon/combat_endurance",
+                "oakhouse:weapon/end_killer",
+                "oakhouse:weapon/mult_attack",
+                "oakhouse:weapon/nether_killer",
+                "oakhouse:weapon/pillager_defender",
+                "oakhouse:weapon/poisoning",
+                "oakhouse:weapon/slow",
+                "oakhouse:weapon/thundering",
+                "oakhouse:weapon/wind_attack",
+                "oakhouse:weapon/wither_talking"
+              ]
+            }
+          ],
+          "name": "minecraft:book",
+          "weight": 1
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:chests/trial_chambers/reward_ominous_rare"
+}

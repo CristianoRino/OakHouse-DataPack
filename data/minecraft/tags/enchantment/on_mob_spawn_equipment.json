@@ -10,43 +10,11 @@
       "required": false
 	  },
 	  {
-      "id": "oakhouse:weapon/combat_endurance",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:weapon/end_killer",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:weapon/mult_attack",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:weapon/nether_killer",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:weapon/pillager_defender",
-      "required": false
-	  },
-	  {
       "id": "oakhouse:weapon/poisoning",
       "required": false
 	  },
 	  {
       "id": "oakhouse:weapon/slow",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:/thundering",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:/wind_attack",
-      "required": false
-	  },
-	  {
-      "id": "oakhouse:/wither_talking",
       "required": false
 	  }
     ]

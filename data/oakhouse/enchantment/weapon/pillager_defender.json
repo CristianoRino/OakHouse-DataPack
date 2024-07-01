@@ -28,7 +28,7 @@
 	  }
 	]
   },
-  "exclusive_set": "#oakhouse:exclusive_set/pidefender",
+  "exclusive_set": "#oakhouse:exclusive_set/pillagerdefender",
   "slots": [
     "mainhand"
   ],

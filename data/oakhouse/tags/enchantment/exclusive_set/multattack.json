@@ -33,6 +33,10 @@
         "required": false
     },
     {
+		"id": "oakhouse:weapon/pillagerdefender",
+        "required": false
+    },
+    {
 		"id": "oakhouse:weapon/thundering",
         "required": false
     },

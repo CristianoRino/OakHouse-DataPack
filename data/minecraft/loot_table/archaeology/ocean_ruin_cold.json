@@ -62,34 +62,6 @@
               "function": "minecraft:set_components"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_far",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:dalarna"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:dalarna_ii"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
         }
       ],
       "rolls": 1.0

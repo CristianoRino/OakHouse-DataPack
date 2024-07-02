@@ -34,6 +34,20 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_mellohi",
+          "functions": [
+            {
+              "components": {
+                "minecraft:jukebox_playable": {
+                  "song": "minecraft:new_worlds_new_adventures"
+                }
+              },
+              "function": "minecraft:set_components"
+            }
+          ]
         }
       ],
       "rolls": 1.0

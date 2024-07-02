@@ -156,78 +156,17 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_mellohi",
+          "name": "minecraft:music_disc_blocks",
           "functions": [
             {
               "components": {
                 "minecraft:jukebox_playable": {
-                  "song": "minecraft:new_worlds_new_adventures"
+                  "song": "minecraft:crescent_dunes"
                 }
               },
               "function": "minecraft:set_components"
             }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_ward",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:the_well_of_fate"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:a_damiliar_room"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_strad",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:relic_remix"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_far",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:dalarna"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
+          ]
         }
       ],
       "rolls": 1.0

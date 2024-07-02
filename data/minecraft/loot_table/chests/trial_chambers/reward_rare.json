@@ -193,68 +193,7 @@
               },
               "function": "minecraft:set_components"
             }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_chirp",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:coral_rise"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_blocks",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:crescent_dunes"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_mall",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:dalarna_ii"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_stal",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:echo_in_the_wind"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
+          ]
         }
       ],
       "rolls": 1.0

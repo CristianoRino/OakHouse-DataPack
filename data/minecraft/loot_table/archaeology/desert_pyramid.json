@@ -49,20 +49,6 @@
               "function": "minecraft:set_components"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:bromeliad"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
         }
       ],
       "rolls": 1.0

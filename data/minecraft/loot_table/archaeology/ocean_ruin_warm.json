@@ -62,34 +62,6 @@
               "function": "minecraft:set_components"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_mellohi",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:new_worlds_new_adventures"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_ward",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:the_well_of_fate"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
         }
       ],
       "rolls": 1.0

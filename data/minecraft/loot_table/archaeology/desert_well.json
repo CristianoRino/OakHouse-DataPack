@@ -98,20 +98,6 @@
               "function": "minecraft:set_components"
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_blocks",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:crescent_dunes"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ]
         }
       ],
       "rolls": 1.0

@@ -93,66 +93,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:music_disc_mellohi",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:new_worlds_new_adventures"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_ward",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:the_well_of_fate"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_13",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:a_damiliar_room"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_strad",
-          "functions": [
-            {
-              "components": {
-                "minecraft:jukebox_playable": {
-                  "song": "minecraft:relic_remix"
-                }
-              },
-              "function": "minecraft:set_components"
-            }
-          ],
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:music_disc_far",
           "functions": [
             {
@@ -163,8 +103,7 @@
               },
               "function": "minecraft:set_components"
             }
-          ],
-          "weight": 3
+          ]
         },
         {
           "type": "minecraft:item",
@@ -174,28 +113,6 @@
               "options": [
                 "oakhouse:armor/anger",
                 "oakhouse:armor/fearless"
-              ]
-            }
-          ],
-          "name": "minecraft:book",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "function": "minecraft:enchant_randomly",
-              "options": [
-                "oakhouse:weapon/combat_endurance",
-                "oakhouse:weapon/end_killer",
-                "oakhouse:weapon/mult_attack",
-                "oakhouse:weapon/nether_killer",
-                "oakhouse:weapon/pillager_defender",
-                "oakhouse:weapon/poisoning",
-                "oakhouse:weapon/slow",
-                "oakhouse:weapon/thundering",
-                "oakhouse:weapon/wind_attack",
-                "oakhouse:weapon/wither_talking"
               ]
             }
           ],
